@@ -1,0 +1,10 @@
+---
+applications:
+- name: kimilguk-myadmin
+  memory: 512M
+  host: kimilguk-myadmin
+  domain: paas-ta.org
+  services:
+  - kimilguk-mysql-db
+  instances: 1
+  disk_quota: 512M
